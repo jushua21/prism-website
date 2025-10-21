@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PRISM: Pregnancy Risk Information and Student Mindfulness</title>
+    <meta name="description" content="PRISM is a student-made awareness website about teenage pregnancy: facts, causes & effects, what to do, prevention, resources, and about us.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a id="top" hidden aria-hidden="true"></a>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">PRISM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#facts" class="nav-link">Facts</a></li>
+                <li><a href="#causes-effects" class="nav-link">Causes & Effects</a></li>
+                <li><a href="#what-to-do" class="nav-link">What To Do</a></li>
+                <li><a href="#prevention" class="nav-link">Prevention</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero" aria-labelledby="site-title">
+        <div class="hero-card">
+            <div class="eyebrow">Student Awareness Project</div>
+            <h1 id="site-title">PRISM: Pregnancy Risk Information and Student Mindfulness</h1>
+            <p class="subtitle">This website is made by students, for students. We want to raise awareness about teenage pregnancy in our school and community, so everyone can understand its causes, effects, and how to prevent it.</p>
+            <div class="actions">
+                <a class="btn btn-primary" href="contact.html">Message Us</a>
+            </div>
+            <p class="help-note">Have a question or need support? Message us — your note is confidential.</p>
+        </div>
+        <div class="hero-aside">
+            <div class="hero-visual" aria-hidden="true">
+                <img class="hero-gif" src="img/motivation.gif" alt="" onerror="this.remove()">
+                <div class="blob"></div>
+                <span class="bubble b1"></span>
+                <span class="bubble b2"></span>
+                <span class="bubble b3"></span>
+                <span class="bubble b4"></span>
+                <div class="quotes" aria-hidden="true">
+                    <div class="quote-text"><span id="quote-text"></span><span class="cursor"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="grid">
+            <section id="facts" class="card" aria-labelledby="facts-h">
+                <p class="kicker">Quick Facts</p>
+                <h2 id="facts-h">Facts</h2>
+                
+                <h3>What is teenage pregnancy?</h3>
+                <p>Teenage pregnancy happens when a girl between 13–19 years old becomes pregnant.</p>
+                
+                <h3>Why it matters:</h3>
+                <p>At this age, the body and mind are still developing. This makes pregnancy riskier compared to adults.</p>
+                
+                <div class="two-col">
+                    <div>
+                        <h3>Global Numbers:</h3>
+                        <ul>
+                            <li>Around 12 million teenagers give birth every year worldwide.</li>
+                            <li>About 777,000 births per year are from girls under 15.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Philippine Situation:</h3>
+                        <ul>
+                            <li>1 in 10 young women aged 15–19 is already a mother.</li>
+                            <li>Teenage pregnancy rates are highest in some regions of Mindanao, including Zamboanga Peninsula.</li>
+                            <li>Teenage mothers are more likely to drop out of school and experience health problems.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="fact-check">
+                    <p><strong>Fact Check:</strong> Teenage pregnancy is preventable — but only with correct knowledge and responsible actions.</p>
+                </div>
+            </section>
+
+            <section id="causes-effects" class="card" aria-labelledby="ce-h">
+                <p class="kicker">Understand the Problem</p>
+                <h2 id="ce-h">Causes &amp; Effects</h2>
+                
+                <div class="causes-section">
+                    <h3>Causes of Teenage Pregnancy</h3>
+                    
+                    <div class="cause-item">
+                        <h4>1. Unprotected Sex</h4>
+                        <ul>
+                            <li>The #1 cause. Having sex without using condoms or birth control.</li>
+                            <li>Even if it's your first time, you can get pregnant.</li>
+                            <li>Reasons why teens don't use protection:
+                                <ul>
+                                    <li>Shyness to buy condoms</li>
+                                    <li>Myths (like "you can't get pregnant the first time")</li>
+                                    <li>Lack of sex education</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <h4>2. Lack of Proper Information</h4>
+                        <ul>
+                            <li>Myths and misinformation are everywhere.</li>
+                            <li>Example: Some believe you can't get pregnant during your period — but it's still possible.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <h4>3. Peer Pressure &amp; Curiosity</h4>
+                        <ul>
+                            <li>Friends may pressure others into sex to "fit in."</li>
+                            <li>Curiosity without guidance leads to unsafe decisions.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <h4>4. Family Problems</h4>
+                        <ul>
+                            <li>Broken families or lack of attention can push teens to seek love and care outside the home.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <h4>5. Media Influence</h4>
+                        <ul>
+                            <li>Movies, TV shows, and social media often show romance and sex as "normal" but rarely show the struggles of being a teenage parent.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="effects-section">
+                    <h3>Effects of Teenage Pregnancy</h3>
+                    
+                    <div class="two-col">
+                        <div>
+                            <h4>On the Teen Mother:</h4>
+                            <ul>
+                                <li>Health risks: anemia, high blood pressure, premature labor, miscarriage</li>
+                                <li>Emotional stress, anxiety, or depression</li>
+                                <li>Hard to finish school</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>On the Baby:</h4>
+                            <ul>
+                                <li>Babies are more likely to be born underweight or premature</li>
+                                <li>Greater risk of sickness or even death in the first year</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="two-col">
+                        <div>
+                            <h4>On the Teen Father:</h4>
+                            <ul>
+                                <li>May feel pressured to earn money early</li>
+                                <li>May also drop out of school</li>
+                                <li>Faces sudden adult responsibilities</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>On the Family:</h4>
+                            <ul>
+                                <li>Financial stress (hospital bills, baby's needs, daily expenses)</li>
+                                <li>Parents may feel disappointed, leading to conflicts</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="effects-note">
+                        <p><strong>Teenage pregnancy affects everyone</strong> — not just the girl but her partner, baby, and family too.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="what-to-do" class="card" aria-labelledby="wtd-h">
+                <p class="kicker">Immediate Steps</p>
+                <h2 id="wtd-h">What To Do if It Happens</h2>
+                
+                <div class="pregnant-steps">
+                    <h3>If you're pregnant:</h3>
+                    
+                    <div class="step-item">
+                        <h4>1. Don't Panic</h4>
+                        <p>Pregnancy is life-changing, but it's not the end of your future.</p>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>2. Tell Someone You Trust</h4>
+                        <p>Share the news with a parent, guardian, or another trusted adult. Keeping it secret makes it harder.</p>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>3. Go for Prenatal Check-ups</h4>
+                        <ul>
+                            <li>Visit a barangay health center or doctor.</li>
+                            <li>Regular check-ups help monitor your health and the baby's growth.</li>
+                            <li>Health workers may give free vitamins like iron and folic acid.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>4. Eat Healthy Foods</h4>
+                        <ul>
+                            <li>Eat a balanced diet: rice, vegetables, fruits, fish, eggs, meat, and milk.</li>
+                            <li>Drink plenty of water.</li>
+                            <li>Avoid junk food, too much soda, coffee, alcohol, and raw/undercooked food.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>5. Avoid Harmful Habits</h4>
+                        <p>Do not smoke, drink alcohol, or use drugs. These can cause miscarriage, premature birth, or birth defects.</p>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>6. Take Care of Your Body</h4>
+                        <ul>
+                            <li>Get enough rest and sleep.</li>
+                            <li>Do light exercise like walking.</li>
+                            <li>Avoid lifting heavy things.</li>
+                            <li>Maintain good hygiene to prevent infections.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>7. Prepare Emotionally</h4>
+                        <ul>
+                            <li>Mood swings and stress are normal.</li>
+                            <li>Talk to supportive friends, family, or a counselor.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>8. Continue Education (if possible)</h4>
+                        <ul>
+                            <li>Some schools allow pregnant teens to continue studying.</li>
+                            <li>Education remains important for your future and your child's future.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="step-item">
+                        <h4>9. Prepare Before Birth</h4>
+                        <ul>
+                            <li>Pack hospital essentials: baby clothes, diapers, mother's clothes, IDs, medical records.</li>
+                            <li>Discuss safe delivery options with a doctor or midwife.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="friend-support">
+                    <h3>If your friend is pregnant:</h3>
+                    <ul>
+                        <li>Don't spread rumors.</li>
+                        <li>Support her by listening and accompanying her to check-ups.</li>
+                        <li>Remind her she is not alone.</li>
+                    </ul>
+                </div>
+                
+                <div class="overwhelmed-support">
+                    <h3>If you feel overwhelmed or hopeless:</h3>
+                    <ul>
+                        <li>Share your feelings with someone you trust.</li>
+                        <li>Call a crisis hotline for emotional support.</li>
+                        <li>Remember: Pregnancy does not erase your dreams — but it requires courage, planning, and support.</li>
+                    </ul>
+                </div>
+                
+                <div class="local-support">
+                    <h3>Local Support in Dapitan City:</h3>
+                    <ul>
+                        <li><strong>Barangay Health Centers</strong> – Free check-ups, vitamins, counseling</li>
+                        <li><strong>Dapitan City Hospital / Rural Health Unit</strong> – Medical services for pregnant women</li>
+                        <li><strong>Guidance Office – Dapitan NHS</strong> – Academic and emotional support</li>
+                        <li><strong>DOH Hotline (1555)</strong> – Free advice and referrals</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="prevention" class="card" aria-labelledby="prev-h">
+                <p class="kicker">Stay Informed</p>
+                <h2 id="prev-h">Prevention Tips</h2>
+                
+                <div class="prevention-main">
+                    <p><strong>Best Way:</strong> Wait until you are ready — focus on your goals first.</p>
+                </div>
+                
+                <div class="sexually-active-section">
+                    <h3>If you choose to have sex:</h3>
+                    
+                    <div class="prevention-method">
+                        <h4>1. Always use condoms</h4>
+                        <p>Protects against both pregnancy and STIs.</p>
+                    </div>
+                    
+                    <div class="prevention-method">
+                        <h4>2. Birth Control Options:</h4>
+                        <ul>
+                            <li><strong>Pills</strong> – taken daily, doctor's advice needed</li>
+                            <li><strong>Injectables</strong> – every 3 months</li>
+                            <li><strong>Implants</strong> – last up to 3 years</li>
+                            <li><strong>IUD (Intrauterine Device)</strong> – lasts up to 10 years</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="prevention-method">
+                        <h4>3. Emergency Contraception</h4>
+                        <p>Pills within 3–5 days after unprotected sex (the sooner, the better).</p>
+                    </div>
+                    
+                    <div class="warning-box">
+                        <p><strong>Warning:</strong> Unprotected sex is the fastest way to get pregnant. Even once is enough.</p>
+                    </div>
+                </div>
+                
+                <div class="safe-practices">
+                    <h3>Other Safe Practices:</h3>
+                    <ul>
+                        <li>Learn to say NO if pressured.</li>
+                        <li>Set clear relationship boundaries.</li>
+                        <li>Focus on studies, hobbies, and dreams.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="resources" class="card" aria-labelledby="res-h">
+                <p class="kicker">Get Support</p>
+                <h2 id="res-h">Resources</h2>
+                <div class="two-col">
+                    <div>
+                        <h3>Hotlines and Local Help</h3>
+                        <ul>
+                            <li>Guidance Office (Dapitan NHS)</li>
+                            <li>Barangay Health Centers</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Websites</h3>
+                        <ul>
+                            <li><a href="https://doh.gov.ph" target="_blank" rel="noopener">DOH</a></li>
+                            <li><a href="https://www.unfpa.org" target="_blank" rel="noopener">UNFPA</a></li>
+                            <li><a href="https://www.deped.gov.ph" target="_blank" rel="noopener">DepEd</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="card" aria-labelledby="about-h">
+                <p class="kicker">Our Mission</p>
+                <h2 id="about-h">About Us</h2>
+                <p>We are students from Dapitan City NHS. We made this website to help our fellow students understand teenage pregnancy better. We believe that by spreading awareness, we can help everyone make informed choices.  <strong>Protect your dreams, protect your future.</strong></p>
+                
+                <div class="team-gallery">
+                    <h3>Meet Our Team</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <img src="picture/pic 1.jpg" alt="Team Member 1" class="member-photo">
+                            <p class="member-name">Chiara Yasmin Sumalpong Castillon </p>
+                        </div>
+                        <div class="team-member">
+                            <img src="picture/pic 2.jpg" alt="Team Member 2" class="member-photo">
+                            <p class="member-name">Almeg Martslyn Elcamel Jamarolin</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="picture/pic 3.jpg" alt="Team Member 3" class="member-photo">
+                            <p class="member-name">Grand Rio Cohena Padao</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="picture/pic 4.jpg" alt="Team Member 4" class="member-photo">
+                            <p class="member-name">Rhube Marie Butuan Arellano</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="picture/pic 5.jpg" alt="Team Member 5" class="member-photo">
+                            <p class="member-name">January Faith Paalisbo Viadnes</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="picture/pic 6.jpg" alt="Team Member 6" class="member-photo">
+                            <p class="member-name">Idymae Jamarolin Binondo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-inner">
+            <span class="small">Made by Dapitan City NHS Students</span>
+            <span class="small">© 2025 PRISM Website</span>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+

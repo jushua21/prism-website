@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact • PRISM</title>
+    <meta name="description" content="Send a confidential message to the PRISM project team.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a id="top" hidden aria-hidden="true"></a>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-text">PRISM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#facts" class="nav-link">Facts</a></li>
+                <li><a href="index.html#causes-effects" class="nav-link">Causes & Effects</a></li>
+                <li><a href="index.html#what-to-do" class="nav-link">What To Do</a></li>
+                <li><a href="index.html#prevention" class="nav-link">Prevention</a></li>
+                <li><a href="index.html#resources" class="nav-link">Resources</a></li>
+                <li><a href="index.html#about" class="nav-link">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="grid">
+            <section class="card" aria-labelledby="contact-h">
+                <p class="kicker">Confidential Support</p>
+                <h2 id="contact-h">Message Us</h2>
+                <p class="subtitle">Send a private message to the PRISM team. We'll keep your information confidential.</p>
+                <p class="help-note">Not sure what to say? It's okay. Ask any question or tell us what you're going through — we're here to listen.</p>
+
+                <form id="contact-form" class="form" autocomplete="on">
+                    <div class="form-row">
+                        <label for="name">Your Name</label>
+                        <input id="name" name="name" type="text" class="input" placeholder="Juan D." maxlength="80" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Your Email</label>
+                        <input id="email" name="email" type="email" class="input" placeholder="you@example.com" maxlength="120" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" class="textarea" rows="6" placeholder="Write your message..." maxlength="2000" required></textarea>
+                    </div>
+                    <div class="actions">
+                        <button type="submit" class="btn btn-primary">Send via Gmail</button>
+                        <a class="btn" href="index.html#home">Cancel</a>
+                    </div>
+                    <p class="form-hint">Note: This opens Gmail compose in a new tab with your message. Make sure you're logged in to Gmail.</p>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-inner">
+            <span class="small">Made by Dapitan City NHS Students</span>
+            <span class="small">© 2025 PRISM Project</span>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
